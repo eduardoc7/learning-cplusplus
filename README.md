@@ -20,6 +20,35 @@ I use code to apply practical concepts and Doxygen style documentation to help w
 
 ---
 
+## 🛠 Build
+```bash
+# Clone this repository
+$ git clone git@github.com:eduardoc7/learning-cplusplus.git
+
+# Install dependencies
+$ sudo apt-get update && sudo apt-get install build-essential
+$ sudo apt install cmake -y
+$ sudo apt install clang clang-tidy clang-format ninja-build -y
+$ sudo apt install libgtest-dev googletest -y
+
+# Build with cmake command line
+$ cd learning-cplusplus/
+$ mkdir build && cd build
+$ cmake ..
+$ cmake --build . --config Debug --target all -j $(nproc) -- 
+```
+---
+
+## ▶ Running tests
+```bash
+# Running test after compile
+$ ctest -j 20 -C Debug -T test --output-on-failure
+
+# Running tests from executable
+$ ./build/bin/maintest_binary
+```
+---
+
 ## 📝 License
 
 Copyright © 2022 [Eduardo Cordeiro](https://github.com/eduardoc7). <br />

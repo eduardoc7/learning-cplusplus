@@ -29,7 +29,7 @@ set(INCLUDE_DIRS
 
 include_directories(${INCLUDE_DIRS})
 
-add_executable(${PROJECT_NAME} main.cpp src/course/basic-language/S1BasicCPlusPlus.cpp src/course/OO-programing/Car.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/course/basic-language/S1BasicCPlusPlus.cpp src/course/OO-programing/Car.cpp)
 
 # Compiler-specific compile flags
 if (${CMAKE_CXX_COMPILER_ID} STREQUAL "GNU")
