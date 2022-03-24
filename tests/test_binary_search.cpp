@@ -1,4 +1,4 @@
-#include "../algorithms/binarySearch.hpp"
+#include "../src/algorithms/binarySearch.hpp"
 #include <gtest/gtest.h>
 
 // NOLINTNEXTLINE(hicpp-special-member-functions)

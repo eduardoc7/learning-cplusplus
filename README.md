@@ -4,19 +4,19 @@ I use code to apply practical concepts and Doxygen style documentation to help w
 
 ## Introduction to the Language C++
 
-- [Basic Language](https://github.com/eduardoc7/learning-cplusplus/tree/main/course/basic-language)
+- [Basic Language](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/basic-language)
 
 ---
 
 ## Oriented Object Programming Concepts
 
-- [OOP](https://github.com/eduardoc7/learning-cplusplus/tree/main/course/OO-programing)
+- [OOP](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing)
 
 ---
 
 ## Applying C++ to algorithms
 
-- [Binary Search](https://github.com/eduardoc7/learning-cplusplus/blob/main/algorithms/binarySearch.hpp)
+- [Binary Search](https://github.com/eduardoc7/learning-cplusplus/blob/main/src/algorithms/binarySearch.hpp)
 
 ---
 

@@ -23,13 +23,13 @@ include(GoogleTest)
 
 # setando todos arquivos include
 set(INCLUDE_DIRS
-        "${CMAKE_CURRENT_SOURCE_DIR}/course/"
-        "${CMAKE_CURRENT_SOURCE_DIR}/algorithms/"
+        "src/course/"
+        "src/algorithms/"
 )
 
 include_directories(${INCLUDE_DIRS})
 
-add_executable(${PROJECT_NAME} main.cpp course/basic-language/S1BasicCPlusPlus.cpp course/OO-programing/Car.cpp)
+add_executable(${PROJECT_NAME} main.cpp src/course/basic-language/S1BasicCPlusPlus.cpp src/course/OO-programing/Car.cpp)
 
 # Compiler-specific compile flags
 if (${CMAKE_CXX_COMPILER_ID} STREQUAL "GNU")

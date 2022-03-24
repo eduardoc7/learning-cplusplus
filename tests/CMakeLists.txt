@@ -4,7 +4,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../src)
 set(CMAKE_CXX_STANDARD 17)
 
 set(srcdir "${CMAKE_CURRENT_SOURCE_DIR}")
-set(msrcdir "${CMAKE_CURRENT_SOURCE_DIR}/../course")
+set(msrcdir "../src/course")
 set(mainbinary "${CMAKE_CURRENT_SOURCE_DIR}/../bin")
 
 file(
