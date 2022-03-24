@@ -4,23 +4,23 @@ I use code to apply practical concepts and Doxygen style documentation to help w
 
 ## Introduction to the Language C++
 
-- [Basic Language]()
+- [Basic Language](https://github.com/eduardoc7/learning-cplusplus/tree/main/course/basic-language)
 
 ---
 
 ## Oriented Object Programming Concepts
 
-- [OOP]()
+- [OOP](https://github.com/eduardoc7/learning-cplusplus/tree/main/course/OO-programing)
 
 ---
 
 ## Applying C++ to algorithms
 
-- [Binary Search]()
+- [Binary Search](https://github.com/eduardoc7/learning-cplusplus/blob/main/algorithms/binarySearch.hpp)
 
 ---
 
 ## 📝 License
 
 Copyright © 2022 [Eduardo Cordeiro](https://github.com/eduardoc7). <br />
-This project is [MIT](https://github.com/eduardoc7/learningcplusplus/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/eduardoc7/learning-cplusplus/blob/main/LICENSE) licensed.
