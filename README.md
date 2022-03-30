@@ -18,6 +18,8 @@ I use code to apply practical concepts and Doxygen style documentation to help w
 - [Non-Static Data Members](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing/LearningNonStaticDataMemberInitialize.hpp)
 - [Structures](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing/LearningStructures.hpp)
 - [This-Pointer](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing/LearningThisPointer.hpp)
+- [Delegating Constructor](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing/LearningDDelegatingConstructor.hpp)
+- [Default and Delete Functions](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing/LearningDefaultAndDeletedFunctions.hpp)
 - [Class Example](https://github.com/eduardoc7/learning-cplusplus/tree/main/src/course/OO-programing/Car.hpp)
 
 ---
