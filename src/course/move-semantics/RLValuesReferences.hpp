@@ -2,7 +2,7 @@
 
 /**
  * R-Value References:
- *  - Have been introduced in c++11 to implemente move semantics
+ *  - Have been introduced in c++11 to implement move semantics
  *  - A reference created to a temporary
  *  - And it represents a temporary value
  *  - Its created with this operator: &&. This is called as the R-Value reference operator
