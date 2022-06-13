@@ -27,7 +27,7 @@ static void testUniquePointer() {
     auto isabella = std::make_unique<Person>("Isabella", 18);
 
     // You can also pass any pointer to std::unique_ptr's constructor
-    Person* p = new Person("Nushi", 12);
+    auto p = new Person("Nushi", 12);
     std::unique_ptr<Person> nushi(p);
 
     // unique_ptr can be used just like regular pointers

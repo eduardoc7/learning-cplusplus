@@ -1,10 +1,10 @@
 #include <iostream>
-#include "course/smart-pointers/UniquePtr.hpp"
+#include "course/smart-pointers/SharedPtr.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    testUniquePointer();
+    testSharedPointers();
 
     return 0;
 }
