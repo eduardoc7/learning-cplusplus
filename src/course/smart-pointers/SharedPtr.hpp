@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 #include <iostream>
 #include <memory>
@@ -53,6 +55,7 @@ static void testSharedPointers() {
 
     std::shared_ptr<Employee> e2{new Employee{}};
     e2->setProject(prj);
+    e2->showInfo(e2);
 
     std::shared_ptr<Employee> e3{new Employee{}};
     e3->setProject(prj);

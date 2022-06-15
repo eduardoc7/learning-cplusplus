@@ -1,10 +1,10 @@
 #include <iostream>
-#include "course/smart-pointers/SharedPtr.hpp"
+#include "course/smart-pointers/WeakPtr.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    testSharedPointers();
+    testWeakPtr();
 
     return 0;
 }
