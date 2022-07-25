@@ -1,4 +1,4 @@
-#include "../src/algorithms/binarySearch.hpp"
+#include "../src/algorithms/algorithms.hpp"
 #include <gtest/gtest.h>
 
 // NOLINTNEXTLINE(hicpp-special-member-functions)
@@ -12,3 +12,14 @@ TEST(AlgorithmsTests, TestBinarySearch) {
 
     ASSERT_EQ(20, result);
 }
+
+// NOLINTNEXTLINE(hicpp-special-member-functions)
+TEST(AlgorithmsTests, TestGraphAdjacencyMatrix) {
+
+    algorithms::GraphAdjacencyMatrix graph{4};
+
+    graph.showMatrix();
+
+    EXPECT_TRUE(true);
+}
+
