@@ -1,6 +1,8 @@
 #pragma once
+
 #include <iostream>
 #include <vector>
+#include <memory>
 
 namespace algorithms {
     /**
@@ -15,17 +17,16 @@ namespace algorithms {
      * @brief A square matrix used to represent a finite graph
     */
     class GraphAdjacencyMatrix {
-        std::uint64_t numVertices;
-        std::vector<std::vector<std::uint64_t>> myMatrix;
+        std::uint64_t m_numVertices;
+        bool **m_myMatrix;
 
     public:
         void showMatrix();
-        void addVertice(const std::uint64_t &ini, const std::uint64_t &fim);
-
-        // search by best practices to fix private attributes from this class
+        void addVertice(const std::uint64_t &t_target, const std::uint64_t &t_source);
+        void printMatrixLikePython();
 
         explicit GraphAdjacencyMatrix(const std::uint64_t &numVertices);
         GraphAdjacencyMatrix() = default;
-        ~GraphAdjacencyMatrix() = default;
+        ~GraphAdjacencyMatrix();
     };
 } // namespace algorithms

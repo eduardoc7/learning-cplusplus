@@ -18,7 +18,14 @@ TEST(AlgorithmsTests, TestGraphAdjacencyMatrix) {
 
     algorithms::GraphAdjacencyMatrix graph{4};
 
+    graph.addVertice(0, 1);
+    graph.addVertice(0, 2);
+    graph.addVertice(1, 2);
+    graph.addVertice(2, 0);
+    graph.addVertice(2, 3);
+
     graph.showMatrix();
+    graph.printMatrixLikePython();
 
     EXPECT_TRUE(true);
 }
