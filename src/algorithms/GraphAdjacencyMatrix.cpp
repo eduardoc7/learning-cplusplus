@@ -5,8 +5,7 @@
 
 algorithms::GraphAdjacencyMatrix::GraphAdjacencyMatrix(const std::uint64_t &t_numVertices)
         : m_numVertices(t_numVertices),
-          m_myMatrix(new bool *[t_numVertices]),
-          m_matrix(std::unique_ptr<std::vector<bool>(t_numVertices, 0)>) {
+          m_myMatrix(new bool *[t_numVertices]) {
     std::cout << "GraphAdjacencyMatrix()" << std::endl;
 
     for (std::uint64_t i = 0; i < t_numVertices; i++) {

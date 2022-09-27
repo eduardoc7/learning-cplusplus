@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <memory>
+#include <algorithm>
 
 namespace algorithms {
     /**
@@ -28,5 +29,24 @@ namespace algorithms {
         explicit GraphAdjacencyMatrix(const std::uint64_t &numVertices);
         GraphAdjacencyMatrix() = default;
         ~GraphAdjacencyMatrix();
+    };
+
+    /**
+     * @brief This algorithm is used to find the shortest
+     * path from one node to every other node in the graph
+     */
+    class GraphDijkstra {
+        std::unordered_map<std::string,
+                const std::unordered_map<std::string, std::uint64_t>>
+                m_vertices;
+    public:
+        void addVertice(const std::string &name,
+                        const std::unordered_map<std::string, std::uint64_t> &edges);
+        auto findBetterPath(const std::string &initial, const std::string &finish)
+        -> std::vector<std::string>;
+        void showGraph();
+
+        GraphDijkstra() = default;
+        ~GraphDijkstra() = default;
     };
 } // namespace algorithms

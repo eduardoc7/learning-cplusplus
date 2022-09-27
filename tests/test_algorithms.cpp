@@ -30,3 +30,23 @@ TEST(AlgorithmsTests, TestGraphAdjacencyMatrix) {
     EXPECT_TRUE(true);
 }
 
+// NOLINTNEXTLINE(hicpp-special-member-functions)
+TEST(AlgorithmsTests, TestGraphDijkstra) {
+    algorithms::GraphDijkstra graph;
+
+    graph.addVertice("A", {{"B", 7},
+                           {"C", 8}});
+    graph.addVertice("B", {{"A", 7},
+                           {"F", 2}});
+
+//    auto test = graph.findBetterPath("A", "B");
+    std::cout << "return: " << std::endl;
+    for (const auto &vertex: graph.findBetterPath("A", "B")) {
+        std::cout << vertex << std::endl;
+    }
+
+//    graph.showGraph();
+
+    EXPECT_TRUE(true);
+}
+
